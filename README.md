@@ -12,3 +12,16 @@ POST http://localhost:9001/departments/
 "deptAddr":"3rd Floor Ashok Nagar",
 "deptCode":"IT-006"
 }
+
+
+user service
+=============
+Its JPA Rest API service EXAMPLE with one service calling other service through RestTemplate
+GET http://localhost:9002/users/1
+POST http://localhost:9002/users/
+{
+    "firstName":"ASHISH KUMAR",
+    "lastName":"SHARMA",
+    "email":"ashishkumar@gmail.com",
+    "deptId":"1"
+}
