@@ -25,3 +25,14 @@ POST http://localhost:9002/users/
     "email":"ashishkumar@gmail.com",
     "deptId":"1"
 }
+
+
+api gateway
+=============
+create service registry
+update department service/user service to register on service registry
+create api gateway and configure it
+GET http://localhost:9191/departments/1
+POST http://localhost:9191/departments/
+GET http://localhost:9191/users/1
+POST http://localhost:9191/users/
